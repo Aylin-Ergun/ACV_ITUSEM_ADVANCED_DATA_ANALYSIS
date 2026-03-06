@@ -137,7 +137,4 @@ Shows:
 - Certain locations show higher anomaly density
 - High-risk installations can be prioritized for field inspection
 
----
-
-# Repository Structure
 
