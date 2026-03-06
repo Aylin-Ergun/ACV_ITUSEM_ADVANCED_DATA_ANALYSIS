@@ -8,7 +8,7 @@ The analysis includes data cleaning, customer segmentation, transaction behavior
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard.png)
+![Dashboard](image/dashboard.png)
 
 ---
 
@@ -28,7 +28,7 @@ The dataset contains information about **10,000+ credit card customers**, includ
 
 Power Query was used to clean and transform the dataset.
 
-![Data Preparation](images/data_preparation.png)
+![Data Preparation](image/data_preparation.png)
 
 Key transformations include:
 
@@ -43,7 +43,7 @@ Key transformations include:
 
 Pivot tables were used to analyze customer behavior and segmentation.
 
-![Pivot Analysis](images/pivot_analysis.png)
+![Pivot Analysis](image/pivot_analysis.png)
 
 Key analyses include:
 
@@ -58,7 +58,7 @@ Key analyses include:
 
 What-if analysis was used to simulate business scenarios such as credit limit increases and churn reduction impact.
 
-![Scenario Analysis](images/scenario_analysis.png)
+![Scenario Analysis](image/scenario_analysis.png)
 
 ---
 
