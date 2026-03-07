@@ -1,24 +1,24 @@
 # Energy Retail Data Analysis – Case Study
 
 This project analyzes electricity consumption and payment data from three districts in Amasya, Turkey.
-The goal is to explore customer behavior, identify consumption patterns, and evaluate collection performance using data analysis and visualization techniques.
+The goal is to explore customer behavior, identify consumption patterns, and evaluate collection performance using Python-based data analysis.
 
 ---
 
 # Project Overview
 
-The dataset contains electricity consumption records for the following districts:
+The dataset contains electricity consumption for the following districts:
 
 * Hamamözü
 * Gümüşhacıköy
 * Göynücek
 
-The analysis focuses on understanding:
+The analysis focuses on:
 
-* consumption patterns
-* customer segments
+* electricity consumption patterns
+* customer segmentation
 * district-level differences
-* payment risk behavior
+* payment delay risk
 
 ---
 
@@ -26,34 +26,65 @@ The analysis focuses on understanding:
 
 ## 1. Data Exploration
 
-* Loading Excel datasets
-* Inspecting data structure
+* Data loading and inspection
 * Descriptive statistics
 * Missing value analysis
 * Outlier detection
+* Dataset structure understanding
 
-## 2. Data Visualization
+---
 
-* Consumption distributions
-* District comparisons
-* Seasonal consumption trends
-* Payment channel analysis
+# Key Visualizations
 
-## 3. Data Storytelling
+## Monthly Electricity Consumption by District
+
+This visualization shows the seasonal electricity consumption trends across districts.
+
+![Monthly Electricity Consumption](outputs-figures/aylik_elektrik_tuketimi.png)
+
+Consumption increases significantly during summer months, especially in **July and August**, indicating strong seasonal demand.
+
+---
+
+## Collection Records Distribution by District and Bank Branch
+
+This chart illustrates how payment transactions are distributed across districts and bank branches.
+
+![Collection Distribution](outputs-figures/tahsilat_kayitlari_il_ilce.png)
+
+Certain bank branches handle a significantly higher number of payment transactions, indicating preferred payment channels.
+
+---
+
+## On-Time vs Late Payment Ratio
+
+The following visualization shows the ratio of customers paying on time versus those paying late.
+
+![Payment Ratio](outputs-figures/zamaninda_ve_gec_odeme_orani.png)
+
+Approximately **86% of payments are made on time**, while **around 27% include delayed payments**, highlighting potential areas for improving collection monitoring.
+
+---
+
+# Data Storytelling
+
+The final stage of the analysis focuses on interpreting the results and generating business insights.
+
+Key analyses include:
 
 * District-level consumption comparison
-* Customer segmentation
-* Payment delay risk analysis
-* Business recommendations
+* Customer segmentation based on consumption levels
+* Payment delay risk analysis by district and customer type
+* Data-driven recommendations for improving collection processes
 
 ---
 
 # Key Insights
 
-* Consumption differences between districts are mainly driven by **customer composition rather than seasonal factors**.
-* **Commercial customers** tend to have significantly higher consumption levels.
-* **Payment delay risk varies across districts**, with Göynücek showing the highest risk ratio.
-* Certain **customer types such as municipalities and infrastructure-related accounts** exhibit higher payment delays.
+* Electricity consumption differences between districts are largely driven by **customer composition rather than seasonal effects**.
+* **Commercial customers** generally show higher electricity consumption levels.
+* **Payment delay risk varies across districts**, indicating regional behavioral differences.
+* Certain customer groups such as **municipal or infrastructure-related accounts** show higher delay ratios.
 
 ---
 
@@ -72,16 +103,8 @@ The analysis focuses on understanding:
 
 This analysis provides actionable insights for energy retail companies:
 
-* Identifying high-risk customer segments
-* Improving collection strategies
-* Understanding regional consumption behavior
-* Supporting data-driven operational decisions
-
----
-
-# Author
-
-Aylin Ergün
-Industrial Engineering Background
-Data Analytics & Business Intelligence
+* identifying high-risk customer segments
+* improving collection strategies
+* understanding regional consumption behavior
+* supporting data-driven operational decisions
 
